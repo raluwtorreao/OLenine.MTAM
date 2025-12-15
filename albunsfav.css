@@ -1,0 +1,167 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(239, 234, 229);
+}
+header {
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+}
+nav {
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    margin: 0 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+ul li:hover a{
+    color: black;
+    background-color: rgb(199, 199, 199);
+}
+ul button {
+    display: inline;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+}
+.opcoes ul {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.opcoes {
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.menu{
+    background-color: black;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+.opcoes button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(83, 83, 83);
+    color: whitesmoke;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    outline: 2px solid black;
+}
+.opcoes button:hover {
+    background-color: rgb(242, 242, 242);
+    color: rgb(44, 44, 44);
+}
+#botao1 {
+    border-radius: 12px;
+}
+#botao2 {
+    padding-left: 33.5%;
+    padding-right: 33.5%;
+}
+#botao2en {
+    padding-left: 36.5%;
+    padding-right: 36.5%;
+}
+#botao2es {
+    padding-left: 34.5%;
+    padding-right: 34.5%;
+}
+#botao2fr {
+    padding-left: 32%;
+    padding-right: 32%;
+}
+#botao3 {
+    border-radius: 8px;
+}
+#destaque {
+    color: rgb(244, 145, 31);
+}
+#destaque:hover {
+    color: rgb(75, 22, 22);
+}
+main{
+    justify-self: center;
+}
+.titulo {
+    justify-content: left;
+    font-family: "Russo One", sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+#conteudo img {
+    width: 200px;
+    outline: 2px solid black;
+}
+#conteudo {
+    background-color:rgb(234, 234, 234) ;
+    outline: 2px solid black;
+    width: 800px;
+    padding: 10px;
+    font-size: larger;
+    justify-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#conteudo a {
+    text-decoration: none;
+    color: rgb(110, 21, 21);
+}
+.EITA {
+    display: inline-flex;
+}
+.EITA p {
+    margin: 0;
+}
+.EITA b {
+    margin: 0;
+}
+section {
+    display: flex;
+    align-items: center; 
+    padding: 5px 10px 5px 5px;
+}
+.img-esquerda {
+    display: block;
+    float: left;
+    margin: 0 15px 10px 0;
+    width: 150px;
+}
+.img-direita {
+    display: block;
+    float: right;
+    margin: 0px 0px 10px 10px;
+    width: 150px;
+}
+footer {
+    font-size: larger;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(110, 21, 21);
+}
+footer a:hover {
+    text-decoration: none;
+    color: rgb(21, 24, 110);
+}
+footer img {
+    width: 30px;
+
+}

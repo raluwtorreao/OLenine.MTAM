@@ -1,0 +1,87 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(229, 229, 229);
+}
+header {
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+section{
+    justify-items: center;
+    align-items: center;
+}
+.retorno {
+    
+    justify-items: center;
+    align-items: center;
+
+}
+.titulo {
+    font-family: "Russo One", sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+button {
+    display: inline;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+}
+
+.opcoes {
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.menu{
+    background-color: black;
+    justify-items: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+.opcoesidiomas a {
+    padding: 15px;
+}
+button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(83, 83, 83);
+    color: whitesmoke;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    outline: 2px solid black;
+}
+button:hover {
+    background-color: rgb(242, 242, 242);
+    color: rgb(44, 44, 44);
+}
+#botaomenu {
+    border-radius: 8px;
+}
+#conteudo {
+    background-color:rgb(234, 234, 234) ;
+    outline: 2px solid black;
+    width: 800px;
+    padding: 10px;
+
+}
+footer {
+    justify-content: flex-start;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(110, 21, 21);
+}
+footer a:hover {
+    text-decoration: none;
+    color: rgb(21, 24, 110);
+}
+footer img {
+    width: 30px;
+
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Oswald", sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+header {
+    font-size: 30px;
+    display: block;
+    justify-content: center;
+    color: rgb(230, 230, 230);
+}
+nav {
+    color: rgb(252, 252, 252);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(19, 19, 19);
+}
+ul li {
+    margin: 0 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+ul li:hover a{
+    color: rgb(161, 161, 161);
+    background-color: rgb(29, 29, 29);
+}
+ul button {
+    display: inline;
+    font-family: "Oswald", sans-serif;
+    font-size: 17px;
+}
+.opcoes ul {
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.opcoes {
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menu li {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.menu{
+    background-color: rgb(214, 214, 214);
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 0;
+}
+.opcoes button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background-color: rgb(44, 44, 44);
+    color: whitesmoke;
+    border: 5px;
+    border-color: rgb(0, 0, 0);
+    outline: 2px solid rgb(223, 223, 223);
+}
+.opcoes button:hover {
+    background-color: rgb(242, 242, 242);
+    color: rgb(44, 44, 44);
+}
+#botao1 {
+    border-radius: 12px;
+}
+#botao2 {
+    padding-left: 33.5%;
+    padding-right: 33.5%;
+}
+#botao3 {
+    border-radius: 8px;
+}
+#destaque {
+    color: rgb(4, 0, 216);
+}
+#destaque:hover {
+    color: rgb(234, 255, 0);
+}
+article{
+    justify-items: center;
+}
+.titulo {
+    font-family: "Russo One", sans-serif;
+    font-size: 70px;
+    color: rgb(233, 233, 233);
+    background-color: rgb(5, 5, 5);
+    padding: 5px 300px 5px 300px ;
+}
+#conteudo {
+    background-color:rgb(28, 28, 28) ;
+    outline: 2px solid rgb(219, 219, 219);
+    color: rgb(233, 233, 233);
+    width: 800px;
+    padding: 10px;
+    font-size: larger;
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer {
+    font-size: larger;
+    color: rgb(238, 238, 238);
+}
+footer a {
+    text-decoration: none;
+    color: rgb(255, 119, 119);
+}
+footer a:hover {
+    text-decoration: none;
+    color: rgb(111, 115, 255);
+}
+footer img {
+    width: 30px;
+
+}
+.posrodape {
+    font-size: larger;
+    color: rgb(238, 238, 238);
+}
